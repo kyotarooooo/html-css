@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.main-visual{
+	background-image: url(img/mv.jpg);
+	height: 400px;
+	width: 100%;
+	background-size: cover;
+	background-position: bottom;
+
+}
+
+.main-visual-text{
+	color: #808080;
+	padding: 20px 0 0 20px;
+	font-size: 22px;
+}
+
+main{
+	width: 840px;
+	margin: 50px auto;
+}
+
+.logo1{
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #c0c0c0;
+}
+
+.logo2{
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #c0c0c0;
+}
+
+.logo3{
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #c0c0c0;
+}
+
+.logo4{
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #c0c0c0;
+}
