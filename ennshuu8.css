@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.clearfix::after{
+	content:"";
+	display: block;
+	clear: both;
+}
+
+
+main{
+	width: 960px;
+	margin: 50px auto;
+}
+
+.main-box1{
+	position: relative;
+	width: 300px;
+	border: 1px solid #c0c0c0;
+	float: left;
+	margin-right: 30px;
+	padding: 10px;
+}
+
+.step1{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 50px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	color: #fff;
+	background-color: #ff9900;
+}
+
+.image1{
+	height: 150px;
+	background-image: url(img/flow01.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.text{
+	padding: 10px 0 0 0;
+}
+
+
+.main-box2{
+	position: relative;
+	width: 300px;
+	border: 1px solid #c0c0c0;
+	float: left;
+	margin-right: 30px;
+	padding: 10px;
+}
+
+.step2{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 50px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	color: #fff;
+	background-color: #ff9900;
+}
+
+.image2{
+	height: 150px;
+	background-image: url(img/flow02.png);
+	background-size: cover;
+	background-position: center;
+}
+
+
+.main-box3{
+	position: relative;
+	width: 300px;
+	border: 1px solid #c0c0c0;
+	float: left;
+	padding: 10px;
+}
+
+.step3{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 50px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	color: #fff;
+	background-color: #ff9900;
+}
+
+.image3{
+	height: 150px;
+	background-image: url(img/flow03.png);
+	background-size: cover;
+	background-position: center;
+}
